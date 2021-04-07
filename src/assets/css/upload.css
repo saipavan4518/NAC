@@ -1,0 +1,46 @@
+.upload-container{
+    display: flex;
+    height: 100%;
+}
+.left-side{
+    display:flex;
+    background-color:#1e4471;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.company-name {
+    
+    margin: auto;
+}
+.right-side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cards-container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    background-color: white;
+}
+label {
+
+    padding: 1% 2%;
+}
+.btn-parent-p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.card-entries{
+    padding:1%;
+}
+
+.btn{
+    width:200px
+}

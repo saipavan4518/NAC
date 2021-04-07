@@ -1,0 +1,86 @@
+.dashboard-container{
+    display: flex; 
+    flex-direction: column;
+    height: 100%;
+    background-color: #dee2e6;
+}
+.d-content{
+    margin-top: 4%;
+    display: flex;
+    height: auto;
+}
+.d-left-side{
+    width: 15%;
+    padding-top:2%;
+    background-color: #dee2e6;
+}
+.d-right-side{
+    width:85%;
+    padding-left:1%;
+    padding-top: 1%;
+    background-color: #dee2e6;
+}
+.v-bar{
+    
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid black;
+    position: sticky;
+    top: 13%;
+}
+.v-bar-entry{
+    display: flex;
+    margin:auto auto;
+    width: 100%;
+    padding-left:8%;
+    margin-bottom: 10%;
+    transition: box-shadow .2s,  background-color .3s;
+}
+.v-bar-entry1{
+    display: flex;
+    margin:auto auto;
+    width: 100%;
+    padding-left:8%;
+    margin-bottom: 10%;
+    transition: box-shadow .2s,  background-color .3s;
+}
+.acc-main{
+    width: 200px;
+}
+.v-active{
+    box-shadow: -3px 0px #00bceb inset; 
+}
+.v-bar-entry:hover{
+    box-shadow: -3px 0px #00bceb inset; 
+    cursor: pointer;
+}
+.acc-item{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: background-color 0.1s;
+}
+.acc-item:hover{
+    cursor: pointer;
+}
+.details-c{
+    padding: 1% 1%;
+}
+.d-topbutton{
+    width:45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00bceb;
+    position: fixed;
+    z-index: 99;
+    bottom: 70px;
+    right:30px;
+    transition: 0.3s;
+}
+.d-topbutton:hover{
+    cursor: pointer;
+    background-color: #019ec5;
+}

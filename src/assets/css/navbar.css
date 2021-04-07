@@ -1,0 +1,16 @@
+.n-container{
+    background-color: whitesmoke;
+    display: flex;
+}
+.n-icon{
+    width:100%;
+}
+.n-cpyname{
+    padding-left: 1%;
+    font-size: 2vw;
+}
+.h-name{
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}

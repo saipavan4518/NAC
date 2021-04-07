@@ -1,0 +1,9 @@
+.guage_c{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.guage_c .g{
+    display: flex;
+    justify-content: center;
+}
